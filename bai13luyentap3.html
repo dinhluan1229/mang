@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let num=[12,10,15,2,99];
+  let max=num[0];
+  let sum=0;
+  for (let i=1;i<num.length;i++){
+    if (num[i]>max){
+      max=num[i];
+    }
+    sum=sum+num[i];
+  }
+  document.write('Số lớn nhất là :  '+max);
+  document.write('Số trung bình của mảng là : '+ (sum/num.length));
+</script>
+</body>
+</html>
