@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num= [1,2,10,12,29,99,15,34,68,86];
+    let max=num[0];
+    let a=0;
+    for (let i=1;i<num.length;i++){
+        if (num[i]>max){
+            max=num[i];
+            a=i;
+        }
+    }
+    document.write('Số lớn nhất là : '+ max +'ở vị trí : ' +a);
+</script>
+</body>
+</html>
