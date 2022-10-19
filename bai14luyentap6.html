@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let arr=[];
+  let x='-';
+  let a=+prompt('giới hạn mảng')
+  for (let i=0;i<a;i++){
+      let b=prompt('nhập kí tự trong mảng');
+      arr.push(b);
+  }
+  for (let j=0;j<arr.length;j++){
+    if (x==arr[j]){
+      arr.splice(j,1,'_')
+    }
+  }
+  document.write(arr)
+
+</script>
+</body>
+</html>
